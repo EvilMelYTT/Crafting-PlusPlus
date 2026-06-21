@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "B": "minecraft:blackstone",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "S",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:lever"
+  }
+}

@@ -1,6 +1,5 @@
 package me.shadowedleaves.craftingplus;
 
-import me.shadowedleaves.craftingplus.datagen.ModRecipeProvider;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +11,6 @@ public class CraftingPlus implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModRecipeProvider.registerModRecipes();
+		LOGGER.info("Registering Mod Recipes for " + MOD_ID);
 	}
 }
