@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "craftingplus",
 	"version": "${version}",
-	"name": "Crafting+",
+	"name": "Crafting++",
 	"description": "A simple Minecraft mod that adds extra crafting recipes to the game!",
 	"authors": [
 		"ShadowedLeaves"
@@ -29,9 +29,9 @@
 		"craftingplus.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.5",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
+		"fabricloader": ">=0.18.2",
+		"minecraft": "^26.1",
+		"java": ">=25",
 		"fabric-api": "*"
 	},
 	"suggests": {
