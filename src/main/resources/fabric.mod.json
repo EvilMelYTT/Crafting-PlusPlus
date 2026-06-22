@@ -25,9 +25,6 @@
 			"me.shadowedleaves.craftingplus.CraftingPlusDataGenerator"
 		]
 	},
-	"mixins": [
-		"craftingplus.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.18.2",
 		"minecraft": "^26.1",
