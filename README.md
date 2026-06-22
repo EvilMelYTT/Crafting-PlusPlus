@@ -1,20 +1,33 @@
 # Crafting+
 
+> [!IMPORTANT]
+> ## AI Usage Disclosure
+>
+> This fork has been upscaled/ported with AI assistance from its original version. Specific methods used:
+>
+> - **1.21.11** — Migrated using [mcmodding-mcp](https://github.com/OGMatrix/mcmodding-mcp) and cross referencing whatever errors compiled
+> - **26.x** — Migrated using `./gradlew migrateMappings`
+> - **Both versions** — Gaps were filled in using **Gemini 3.5 Flash**
+>
+> Porting done with direct consent from ShadowedLeaves/MysticIvy
+
+---
+
 **Crafting+** is a QoL mod that adds extra recipes into the game.
 
 Download **Crafting+** here: https://modrinth.com/mod/shadowedleaves-crafting+
 
-Report issues here: https://github.com/Fethercat/Crafting-Plus/issues
-
-Learn more about the mod here: https://github.com/Fethercat/Crafting-Plus/wiki
-
 ---
 
 ### Supported Versions
-
+- 26.x
+- 1.21.11
+- 1.21.2
+- 1.21.1
+- 1.21
 - 1.20.4
 
-**Support for this project has been discontinued.**
+**Support for this project will be reinstated for as long as I remember this exists**
 
 ---
 
@@ -99,7 +112,10 @@ A **Stone Pickaxe** can be crafted from the stones listed below:
 
 Discord: shadowedleaves_
 
+Skidders Discord:EvilMel
+
 ~~Feel free to message me to ask a question or suggest a feature!~~
+**dude just fork the project and do it ethically**
 
 ---
 
@@ -108,6 +124,14 @@ Discord: shadowedleaves_
 Supported Languages:
 
 - English
+
+Original Github Repository: [Source Code](https://github.com/MysticIvy/Crafting-Plus)
+
+Github Fork Repository: [Source Code](https://github.com/EvilMelYTT/Crafting-PlusPlus)
+
+Report Issues: [Issues](https://github.com/EvilMelYTT/Crafting-PlusPlus/issues)
+
+**Original Crafting-Plus** Wiki: [Wiki](https://github.com/MysticIvy/Crafting-Plus/wiki)
 
 ---
 
