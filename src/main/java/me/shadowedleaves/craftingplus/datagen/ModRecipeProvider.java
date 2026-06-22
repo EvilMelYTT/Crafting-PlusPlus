@@ -84,7 +84,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_stone", has(Items.STONE))
                         .unlockedBy("has_dropper", has(Items.DROPPER))
                         .unlockedBy("has_stick", has(Items.STICK))
-                        .save(output, "minecraft:" + getItemName(Items.DISPENSER));
+                        .save(output);
 
                 //Enchanted Golden Apple
                 shaped(RecipeCategory.FOOD, Items.ENCHANTED_GOLDEN_APPLE, 1)
@@ -95,7 +95,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('A', Items.APPLE)
                         .unlockedBy("has_gold_block", has(Items.GOLD_BLOCK))
                         .unlockedBy("has_apple", has(Items.APPLE))
-                        .save(output, "minecraft:" + getItemName(Items.ENCHANTED_GOLDEN_APPLE));
+                        .save(output);
 
                 //Name Tag
                 shaped(RecipeCategory.MISC, Items.NAME_TAG, 1)
@@ -108,7 +108,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_string", has(Items.STRING))
                         .unlockedBy("has_paper", has(Items.PAPER))
                         .unlockedBy("has_iron_ingot", has(Items.IRON_INGOT))
-                        .save(output, "minecraft:" + getItemName(Items.NAME_TAG));
+                        .save(output);
 
                 //Iron Horse Armor
                 shaped(RecipeCategory.COMBAT, Items.IRON_HORSE_ARMOR, 1)
@@ -119,7 +119,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('I', Items.IRON_INGOT)
                         .unlockedBy("has_saddle", has(Items.SADDLE))
                         .unlockedBy("has_iron_ingot", has(Items.IRON_INGOT))
-                        .save(output, "minecraft:" + getItemName(Items.IRON_HORSE_ARMOR));
+                        .save(output);
 
                 //Gold Horse Armor
                 shaped(RecipeCategory.COMBAT, Items.GOLDEN_HORSE_ARMOR, 1)
@@ -130,7 +130,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('G', Items.GOLD_INGOT)
                         .unlockedBy("has_saddle", has(Items.SADDLE))
                         .unlockedBy("has_gold_ingot", has(Items.GOLD_INGOT))
-                        .save(output, "minecraft:" + getItemName(Items.GOLDEN_HORSE_ARMOR));
+                        .save(output);
 
                 //Diamond Horse Armor
                 shaped(RecipeCategory.COMBAT, Items.DIAMOND_HORSE_ARMOR, 1)
@@ -141,7 +141,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('D', Items.DIAMOND)
                         .unlockedBy("has_saddle", has(Items.SADDLE))
                         .unlockedBy("has_diamond", has(Items.DIAMOND))
-                        .save(output, "minecraft:" + getItemName(Items.DIAMOND_HORSE_ARMOR));
+                        .save(output);
 
                 //Blackstone Lever
                 shaped(RecipeCategory.REDSTONE, Items.LEVER, 1)
@@ -151,7 +151,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('B', Items.BLACKSTONE)
                         .unlockedBy("has_stick", has(Items.STICK))
                         .unlockedBy("has_blackstone", has(Items.BLACKSTONE))
-                        .save(output, "minecraft:" + getItemName(Items.LEVER));
+                        .save(output);
 
                 //Blackstone Observer
                 shaped(RecipeCategory.REDSTONE, Items.OBSERVER, 1)
@@ -164,7 +164,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_quartz", has(Items.QUARTZ))
                         .unlockedBy("has_redstone", has(Items.REDSTONE))
                         .unlockedBy("has_blackstone", has(Items.BLACKSTONE))
-                        .save(output, "minecraft:" + getItemName(Items.OBSERVER));
+                        .save(output);
 
                 //Blackstone Dropper
                 shaped(RecipeCategory.REDSTONE, Items.DROPPER, 1)
@@ -175,7 +175,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('R', Items.REDSTONE)
                         .unlockedBy("has_blackstone", has(Items.BLACKSTONE))
                         .unlockedBy("has_redstone", has(Items.REDSTONE))
-                        .save(output, "minecraft:" + getItemName(Items.DROPPER));
+                        .save(output);
 
                 //Blackstone Brewing Stand
                 shaped(RecipeCategory.REDSTONE, Items.BREWING_STAND, 1)
@@ -185,7 +185,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('B', Items.BLACKSTONE)
                         .unlockedBy("has_blaze_rod", has(Items.BLAZE_ROD))
                         .unlockedBy("has_blackstone", has(Items.BLACKSTONE))
-                        .save(output, "minecraft:" + getItemName(Items.BREWING_STAND));
+                        .save(output);
 
                 //Raw Iron Block -> Iron Block
                 oreSmelting(IRON_BLOCK_SMELTABLES, RecipeCategory.BUILDING_BLOCKS,
